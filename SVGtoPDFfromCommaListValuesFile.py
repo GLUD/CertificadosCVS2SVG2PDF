@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2.7
 # -*- coding: utf-8 -*-
 import sys
 import getopt
@@ -43,7 +43,7 @@ nodo1 = None
 nodo2 = None
 # Los identificadores deben ser puestos previamente
 # en el archivo SVG que sirve como plantilla
-ids = ["parametro_001", "parametro_002", "parametro_003"]
+ids = ["parametro_1", "parametro_2", "parametro_3"]
 for nodo in nodos:
     if nodo.getAttribute("id") == ids[0]:
         nodo1 = nodo

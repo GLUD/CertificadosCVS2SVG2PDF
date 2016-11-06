@@ -32,7 +32,7 @@ from xml.dom import minidom
 xml_documento = minidom.parse(inputfile)
 lista = xml_documento.getElementsByTagName("tspan")
 for nodo in lista:
-    if nodo.getAttribute("id")=="parametro_001":
+    if nodo.getAttribute("id")=="parametro_1":
         inputtext = inputtext.decode('utf8')		
         nodo.firstChild.replaceWholeText(inputtext)
 out_file="/tmp/output_generarpdf.svg"
