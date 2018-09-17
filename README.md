@@ -1,5 +1,4 @@
 # CertificadosCVS2SVG2PDF
-=========================
 
 ## DEPENDENCIAS
 
